@@ -21,8 +21,12 @@
     },
     "autoload": {
         "psr-0": {
-            "JsonPath\\": "src/Galbar/",
-            "Utilities\\": "src/Galbar/"
+            "JsonPath\\": "src",
+            "Utilities\\": "src"
+        },
+        "psr-4": {
+            "JsonPath\\": "src",
+            "Utilities\\": "src"
         }
     },
     "autoload-dev": {
